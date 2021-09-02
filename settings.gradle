@@ -1,5 +1,4 @@
-import org.gradle.api.initialization.resolve.RepositoriesMode
-
+include ':Library'
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
